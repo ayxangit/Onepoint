@@ -10,6 +10,8 @@
     width: 100%;
     height: 80px;
     background: rgb(15,25,35);
+    position: fixed;
+    z-index: 4;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -121,7 +123,7 @@
     display: block;
     margin-top: 5px;
     outline: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid #d1d1d1;;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -204,6 +206,131 @@
     padding-right: 10px;
 }
 /* end */
+
+/* start advantages section */
+.advantages {
+    width: 100%;
+    height: 576px;
+}
+.superiority {
+    width: 1140px;
+    height: 49px;
+    margin: auto;
+    margin-top: 45px;
+}
+.superiority h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: rgb(15,25,35);
+    font-weight: normal;
+}
+.underline {
+    content: '';
+    display: flex;
+    width: 100px;
+    border-radius: 10px;
+    height: 4px;
+    background: #fac819;
+    margin: 20px auto 25px;
+}
+.preference-box {
+    width: 1100px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon-boxs {
+    width: 260px;
+    height: 353px;
+}
+.icon_box {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    transform: rotate(45deg);
+    background-image: linear-gradient(to bottom, rgba(250, 200, 25, .3), transparent);
+    margin: auto;
+    margin-top: 10px;
+}
+.fa-cogs {
+    height: 50px;
+    width: 50px;
+    font-size: 60px;
+    line-height: 50px;
+    transform: rotate(-45deg);
+    color: rgb(250,200,25);
+    text-shadow: 1px 1px rgb(0 0 0 / 50%);
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-top: 18px;
+    margin-left: 19px;
+}
+.fa-user-check{
+    height: 50px;
+    width: 50px;
+    font-size: 60px;
+    line-height: 50px;
+    transform: rotate(-45deg);
+    color: rgb(250,200,25);
+    text-shadow: 1px 1px rgb(0 0 0 / 50%);
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-top: 18px;
+    margin-left: 19px;
+}
+.fa-handshake{
+    height: 50px;
+    width: 50px;
+    font-size: 60px;
+    line-height: 50px;
+    transform: rotate(-45deg);
+    color: rgb(250,200,25);
+    text-shadow: 1px 1px rgb(0 0 0 / 50%);
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-top: 18px;
+    margin-left: 19px;
+}
+.fa-hand-holding-usd{
+    height: 50px;
+    width: 50px;
+    font-size: 60px;
+    line-height: 50px;
+    transform: rotate(-45deg);
+    color: rgb(250,200,25);
+    text-shadow: 1px 1px rgb(0 0 0 / 50%);
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-top: 18px;
+    margin-left: 19px; 
+}
+.icon-boxs h4{
+    width: 204px;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: Cab, sans-serif;
+    color: rgb(15,25,35);
+    font-weight: bold;
+    margin-top: 15px;
+}
+.icon-boxs p{
+    width: 200px;
+    height: 108px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    font-family: Cab, sans-serif;
+}
+/* end */
+
+
 
 
 
